@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<!-- /
+    Universal selector=*{}
+    Elemlent selector or type selector =h1{}
+    class selector =.class{}
+    ID selector =#id --its use only unick
+    Spesific class selector =h1.jack{}
+    Grouping selector=h1,h2,a,p{}
+    Desendend selector=div p{}
+    child selector =div > p  ---child only not inner child
+    adjesent sibling selector=div + p --pakkathu veedu 
+    general sibling selector =div ~ p
+    div[class]{}--- class selector
+    div[id]{}------id selector
+    div[class="jack"]{}---atribute selector
+    div[id=jack]{}----atribute selector
+    div[id~="inner"]--if we have multiple classs name we use the selectors
+    a[title="link1"]{}
+    a[title="link2"]{}
+    a[href="test.png"]{}
+    a[href^="test"]----if the link start with test we use this
+    a[href$="test"]----if the link End with test we use this
+-->
+    <!-- 
+    Pseudo_elements
+    ::first-line{}--Its only working to block level elemnt not inline
+        *font properties
+        *color properties
+        *bg properties
+        *word spasing
+        *letter spacing
+        *text decoration
+        *line height
+        *clear
+    ::first-letter{}
+        *font properties
+        *color properties
+        *bg properties
+        *margin padding border
+        *text decoration
+        *vertical align(only the flot is none)
+        *line height 
+        *flot 
+        *clear
+    p::first letter
+    p::first line
+        *multiple spudo elements
+    before & after psudo elements
+        *
+        a::after{}
+        a::before{}
+    -->
+ <!-- /
+     :active  --When we click
+     :focus   --
+     :hover
+     :link
+     :disabled
+     :enabled
+     :cheaked
+     :nth-child(n)
+     :nth-last-child(n)
+     :first-child
+     :last-child
+     :Onlychild
+     :nth-of-type(n)
+     :nth-last-of-type(n)
+     :last-of-year
+     :empty
+     :root
+     :not(x)
+     :targer
+     ::first-letter
+     ::first-line
+     ::before
+     ::after
+    -->
+<body>
+   <a href="#css">Cascading style sheet</a>
+   <a href="#css">Cascading style sheet</a>
+   <a href="#css">Cascading style sheet</a>
+   <h1 class="jack">varkees</h1>
+   <p></p>
+   <p class="jack">jack varkees</p>
+</body>
+</html>

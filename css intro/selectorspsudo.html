@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+        }
+        a[href$='l']{
+            font-size: 40px;
+        }
+        a[href$='l']:hover{
+            color: yellow;
+        }
+        a[href$='l']:active{
+            color: green;
+        }
+        a[href$='l']:visited{
+            color: red;
+        }
+
+        /* ========== */
+        a{
+            display: block;
+        }
+        /* -========== */
+
+       ul li:first-child{
+        color: red;
+       }
+       ul li:last-child{
+        color: yellow;
+       }
+       ul li:nth-child(2){
+        color: pink;
+       }
+    </style>
+</head>
+<body>
+    <!-- <h1>Psudo class in css</h1>
+    <a href="Flex.html">Link1</a>
+    <a href="background.html">Link2</a>
+    <a href="list.html">Link3</a>
+    <a href="position.html">link4</a>
+    <a href="Selectors.html">Link5</a> -->
+    <ul>
+        <li>jack1</li>
+        <li>jack2</li>
+        <li>jack3</li>
+        <li>jack4</li>
+        <li>jack5</li>
+    </ul>
+</body>
+</html>

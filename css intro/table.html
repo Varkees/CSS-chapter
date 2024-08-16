@@ -1,0 +1,92 @@
+<style>
+        /* 
+        border
+        cellpadding
+        cellspacing
+        border-collapse:collapse
+        caption
+        rowspan
+        colspan
+        */
+    
+    table{
+            /* border-collapse: collapse; */
+            /* background: gray; */
+        border-radius: 10px;
+            /* background: black; */
+    /* background: gray; */
+            font-size: 30px;
+    }
+    th,td{
+        border-radius: 10px;
+        background: gray;
+        color: white;
+        font-weight: bold;
+        
+    
+    }
+  table tr:nth-of-type(even){
+    background: yellow;
+  }
+</style>
+<body>
+
+    <table
+    border=""
+    cellpadding="22"
+    cellspacing="22"
+    >
+    <caption style="text-align: center;"> calculator</caption>
+    <!-- colgroup only width and bg color -->
+    <colgroup>
+        <col style="width: 110px">
+        <col style="width: 150px;">
+        <col style="width: 190px;">
+        <col style="width: 140px;">
+    </colgroup>
+        <thead>
+            <tr>
+                <td colspan="4">
+
+                </td>
+            </tr>
+            <tr>
+                
+                <th>C</th>
+                <th> <-- </th>
+                <th>%</th>
+                <th>/</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>*</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center">00</td>
+                    <td>0</td>
+                    <td>=</td>
+                </tr>
+            </tfoot>
+        </tfoot>
+    </table>
+
+</body>
